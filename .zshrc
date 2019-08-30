@@ -1,5 +1,8 @@
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
+export PATH="/usr/local/anaconda3/bin:$PATH"
+export PATH="/usr/local/lib/ruby/gems/2.6.0/bin:$PATH"
+export PATH="/usr/local/opt/ruby/bin:$PATH"
 
 # Path to your oh-my-zsh installation.
 export ZSH=$HOME/.oh-my-zsh
@@ -90,21 +93,6 @@ source $ZSH/oh-my-zsh.sh
 # User configuration
 
 # export MANPATH="/usr/local/man:$MANPATH"
-
-# Added by Jack; Zplug
-# export ZPLUG_HOME=/usr/local/opt/zplug
-# source $ZPLUG_HOME/init.zsh
-
-# Added by Jack; comment at 20180822, delete subl
-# export PATH="/Users/jack/.bin:$PATH"
-# Added by Anaconda3 5.0.1 installer
-# export PATH="/Users/jack/Anaconda3/bin:$PATH"
-# export PATH="$HOME/.local/anaconda3/bin:$PATH"
-# export PATH="$HOME/.local/anaconda3/envs/p3.7/bin:$PATH"
-# . /Users/jack/.local/anaconda3/etc/profile.d/conda.sh
-export PATH="/Library/Tex/texbin:$PATH"
-export PATH="/usr/local/lib/ruby/gems/2.6.0/bin:$PATH"
-export PATH="/usr/local/opt/ruby/bin:$PATH"
 
 # You may need to manually set your language environment
 # export LANG=en_US.UTF-8
